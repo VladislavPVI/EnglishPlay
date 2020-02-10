@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="Найди синонимы!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_light"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.85">
+
+        <LinearLayout
+            android:layout_width="139dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.55"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qw1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.04"
+                android:background="@android:color/holo_blue_dark"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qw2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.04"
+                android:background="@android:color/holo_blue_dark"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qw3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.04"
+                android:background="@android:color/holo_blue_dark"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="18dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.16"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="139dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.27">
+
+            <TextView
+                android:id="@+id/ans1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.04"
+                android:background="@android:color/holo_orange_light"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ans2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.04"
+                android:background="@android:color/holo_orange_light"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ans3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.04"
+                android:background="@android:color/holo_orange_light"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="201dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:background="@drawable/but"
+            android:onClick="cancel"
+            android:text="Delete"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="201dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:background="@drawable/but"
+            android:onClick="skip"
+            android:text="Check"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+    </LinearLayout>
+
+    <TextView
+         android:id="@+id/pWin"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:textColor="#D6AE01"/>
+
+     <TextView
+         android:id="@+id/pLost"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:textColor="#D6AE01"/>
+
+    <RadioButton
+        android:id="@+id/hintS"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Подсказка"
+        android:onClick="hints"/>
+</LinearLayout>

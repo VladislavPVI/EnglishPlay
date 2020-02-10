@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.english">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainGame" />
+        <activity android:name=".Dict" />
+        <activity android:name=".ChangeLevel" />
+        <activity android:name=".HardLevel" />
+        <activity android:name=".SinAct" />
+        <activity android:name=".Statistic" />
+        <activity android:name=".menu" />
+        <activity android:name=".videoA1" />
+        <activity android:name=".videoA2" />
+        <activity android:name=".GameCatch" />
+        <activity android:name=".oneLevel" />
+        <activity android:name=".TwoLevel" />
+        <activity android:name=".bonus" />
+        <activity android:name=".GameCatch2" />
+        <activity android:name=".startvideo" />
+        <activity android:name=".about" />
+        <activity android:name=".videoA3"></activity>
+        <service android:name=".MyService"/>
+        <service android:name=".BackM"/>
+    </application>
+
+</manifest>

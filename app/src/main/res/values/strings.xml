@@ -1,0 +1,44 @@
+﻿<resources>
+    <string name="app_name">Play English</string>
+    <string name="title_activity_main2">Englishbd</string>
+    <string-array name="phrases">
+        <item>"Could we have more bread, please?"</item>
+        <item>"One dry sherry and a glass of champaign, please."</item>
+        <item>"I love sunny-side up eggs with toast."</item>
+        <item>"How about a shortcake for dessert, Jane?"</item>
+        <item>"Could I also have a side order of potatoes?"</item>
+        <item>"Make a crispy crust for the Hawaiian pizza."</item>
+        <item>"I don't like when fried chicken wings are spicy."</item>
+    </string-array>
+
+    <string name="Speech_unknown">Неизвестно</string>
+    <string name="Speech_Noun">Существительное</string>
+    <string name="Speech_adjective">Прилагательное</string>
+    <string name="Speech_adverb">Наречие</string>
+    <string name="Speech_verb">Глагол</string>
+    <string-array name="array_speech_options2">
+        <item>@string/Speech_unknown</item>
+        <item>@string/Speech_Noun</item>
+        <item>@string/Speech_adjective</item>
+        <item>@string/Speech_adverb</item>
+        <item>@string/Speech_verb</item>
+    </string-array>
+
+    <string name="number_unknown">Неизвестно</string>
+    <string name="number_single">Единственное число</string>
+    <string name="number_plural">множественное число</string>
+    <string-array name="array_number_options">
+        <item>@string/number_unknown</item>
+        <item>@string/number_single</item>
+        <item>@string/number_plural</item>
+    </string-array>
+
+    <string name="numerat_unknown">Неизвестно</string>
+    <string name="numerat_isch">Исчисляемое</string>
+    <string name="numerat_nisch">Неисчисляемое</string>
+    <string-array name="array_numerat_options">
+        <item>@string/numerat_unknown</item>
+        <item>@string/numerat_isch</item>
+        <item>@string/numerat_nisch</item>
+    </string-array>
+</resources>

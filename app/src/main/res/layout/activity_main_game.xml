@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    tools:context="com.example.english.MainGame">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="139dp"
+                android:text="Touch the words in the corect order to make sentences\n\nНажимай на слова в правильном порядке, чтобы получилось верное предложение"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onButton1" />
+
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onButton2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onButton3" />
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onButton4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onButton5" />
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onButton6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onButton7" />
+
+            <Button
+                android:id="@+id/button50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onButton8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="178dp"
+                android:layout_height="69dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/hard_button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Hint"
+                    android:text="Подсказка" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:onClick="Point"
+                    android:text=" . "
+                    android:layout_weight="0.01" />
+
+                <Button
+                    android:id="@+id/button53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:onClick="Que"
+                    android:text=" ? "
+                    android:layout_weight="0.01" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Возможно больше 1 правильного ответа"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0.41">
+
+            <Button
+                android:id="@+id/Output"
+                style="?attr/autoCompleteTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/met"
+                android:onClick="Delete"
+                android:text="Delete" />
+
+            <LinearLayout
+                android:layout_width="38dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="vertical"></LinearLayout>
+
+            <Button
+                android:id="@+id/checkBox2"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/met"
+                android:gravity="center"
+                android:onClick="Check"
+                android:text="Check" />
+
+            <LinearLayout
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:orientation="vertical"></LinearLayout>
+
+            <Button
+                android:id="@+id/hard_button"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/met"
+                android:onClick="Restart"
+                android:text="Restart" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ppWin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/ppLost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/background_light" />
+    </LinearLayout>
+</ScrollView>

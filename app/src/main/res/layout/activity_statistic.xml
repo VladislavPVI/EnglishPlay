@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:selectedWeekBackgroundColor="#00ff00"
+        android:weekNumberColor="#ff0000"
+        android:weekSeparatorLineColor="#00ff00"
+        android:layout_weight="0.47" />
+
+    <TextView
+        android:id="@+id/status0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textColor="#00ff00"/>
+    <TextView
+        android:id="@+id/status1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D6AE01"/>
+    <TextView
+        android:id="@+id/status2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D6AE01"/>
+    <TextView
+        android:id="@+id/status3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D6AE01"/>
+    <TextView
+        android:id="@+id/status4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D6AE01"/>
+    <TextView
+        android:id="@+id/status5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D6AE01"/>
+    <TextView
+        android:id="@+id/status6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:textColor="#D6AE01"/>
+</LinearLayout>
