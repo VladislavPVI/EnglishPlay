@@ -15,7 +15,7 @@
 
 В главном меню приложения пользователю нужно выбрать один из четырёх вариантов:
 
-<img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BC%D0%B5%D0%BD%D1%8E.jpg" width="202.33" height="360" /> | <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/level%201.jpg" width="202.33" height="360" /> | <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/level%202.jpg" width="202.33" height="360" />
+<img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%8C%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BB.jpg" width="202.33" height="360" /> | <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/%D0%BF%D0%BE%D0%B9%D0%BC%D0%B0%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B2%D0%BE.jpg" width="202.33" height="360" /> | <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/%D0%BE%D1%82%D0%B3%D0%B0%D0%B4%D0%B0%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B2%D0%BE.jpg" width="202.33" height="360" /> 
 ------------ | ------------- | -------------
 Главное меню | Простой уровень | Сложный уровень
 
