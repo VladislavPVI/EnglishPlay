@@ -31,7 +31,7 @@
 -	Поймай слово: пользователю предлагается поймать главным героем английское слово на одном из трёх блюд падающих с верхней части экрана. Русское слово на теле главного героя должно совпадать с соответствующим английским словом на блюде.
 -	Отгадай слово: сопоставить английское слово картинке, нажатием на одну из трёх кнопок.
 
-<img src="DOC/NoiseAngelina.jpg" width="202.33" height="360" /> | <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/%D0%BF%D0%BE%D0%B9%D0%BC%D0%B0%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B2%D0%BE.jpg" width="202.33" height="360" /> | <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/%D0%BE%D1%82%D0%B3%D0%B0%D0%B4%D0%B0%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B2%D0%BE.jpg" width="202.33" height="360" /> 
+<img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%8C%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BB.jpg" width="202.33" height="360" /> | <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/%D0%BF%D0%BE%D0%B9%D0%BC%D0%B0%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B2%D0%BE.jpg" width="202.33" height="360" /> | <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/%D0%BE%D1%82%D0%B3%D0%B0%D0%B4%D0%B0%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B2%D0%BE.jpg" width="202.33" height="360" /> 
 ------------ | ------------- | -------------
 Составь предложение | Поймай слово | Отгадай слово
 
