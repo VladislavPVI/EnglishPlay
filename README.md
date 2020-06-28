@@ -42,4 +42,4 @@
 
 <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/Screenshot_20200210-235730_Play%20English.jpg" width="202.33" height="360" /> | <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/Screenshot_20200211-000838_Play%20English.jpg" width="202.33" height="360" /> | <img src="https://github.com/VladislavPVI/Play-English/blob/master/docs/Screenshot_20200210-235854_Play%20English.jpg" width="202.33" height="360" /> 
 ------------ | ------------- | -------------
-Составь предложение | Поймай слово | Найди синонимы
+Составь предложение | Поймай слово | Найди синонимы 
